@@ -29,10 +29,6 @@ public class MainActivity extends AppCompatActivity {
         //COMMIT
         long result=db.add(name,pos);
 
-        if(result>0)
-        {
-            Toast.makeText(getApplicationContext(),"BUDGET ADDED!",Toast.LENGTH_SHORT).show();
-        }
         db.closeDB();
 
     }
